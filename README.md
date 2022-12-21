@@ -4,10 +4,9 @@ This is a code for building unbeatable Tic-tac-toe program in C++. It can be pro
 
 Used Minimax algorithm of Game Theory
 
-An implementation of minimax algorithm to construct an unbeatable AI in Tic-Tac-Toe.
-Time complexity is O(number of states) which is less than 10^6 in tic-tac-toe
+An implementation of minimax algorithm to construct an unbeatable AI in Tic-Tac-Toe. It builds the complete game tree and precomputes the best choice for every state of the game and traverses throughoutt the tree during the runtime.
 
-It builds the complete game tree and precomputes the best choice for every state of the game and traverses throught the tree during the runtime.
+Time complexity is O(number of states) which is less than 10^6 in tic-tac-toe
 
 Total states = 549946
 
